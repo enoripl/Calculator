@@ -1,0 +1,34 @@
+#calculatorFrame {
+    background-color: purple;
+    width: 400px;
+    height: 500px;
+}
+
+#calculatorScreen {
+    background-color: black;
+    color: aliceblue;
+    width: 350px;
+    height: 100px;
+    margin: 10px, 20px, 5px, 10px; 
+}
+
+.numbersButtonsSection {
+    display: flex; 
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.numbersButtons {
+    width: 100px;
+    height: 60px;
+    
+}
+
+.calcButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+#calculatorKeys {
+    display: flex;
+}
